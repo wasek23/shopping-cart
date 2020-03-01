@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	margin-bottom: 0 !important;
+}
+
+body{
+	background: #fff;
+}
+.cart{
+	margin: 100px 0;
+	background-color: #F6F5FA;;
+	padding: 60px 0;
+}
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item, .totalContainer{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-item img{
+	width: 115px;
+}
+.cart-item h5, .totalContainer h5{
+	padding-left: 20px;
+}
+.cart-item .remove-item{
+	width: 25px!important;
+}
+.btn-default{
+	background-color: #fff;
+	padding: 0;
+}
+.fas{
+	padding: 10px 15px;
+}
+.cart-item .form-control, .totalContainer .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}
+
+.totalContainer h5{
+	margin: 10px 0;
+}
+
+footer a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
